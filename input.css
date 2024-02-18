@@ -1,0 +1,33 @@
+#box1:hover{
+    box-shadow: 0 0 10px 0px rgb(207, 206, 206);
+    transition: all ease-in .3s;
+}
+
+#box1:hover #img1{
+    background-color: linear-gradient(to white, blue);
+}
+
+#box2:hover{
+    box-shadow: 0 0 10px 0px rgb(207, 206, 206);
+    transition: all ease-in .3s;
+}
+
+#box3:hover{
+    box-shadow: 0 0 10px 0px rgb(207, 206, 206);
+    transition: all ease-in .3s;
+}
+
+#box4:hover{
+    box-shadow: 0 0 10px 0px rgb(207, 206, 206);
+    transition: all ease-in .3s;
+}
+
+#box5:hover{
+    box-shadow: 0 0 10px 0px rgb(207, 206, 206);
+    transition: all ease-in .3s;
+}
+
+#box6:hover{
+    box-shadow: 0 0 10px 0px rgb(207, 206, 206);
+    transition: all ease-in .3s;
+}
