@@ -22,6 +22,15 @@
         font-family: "mulish", sans-serif;
       }
 
+      .img-vert {
+        -moz-transform: scaleY(-1);
+        -o-transform: scaleY(-1);
+        -webkit-transform: scaleY(-1);
+        transform: scaleY(-1);
+        filter: FlipV;
+        -ms-filter: "FlipV";
+}
+
       .corefeatureSection {
         background-size: 100% 100%;
         padding-top: 12rem;
@@ -48,6 +57,33 @@
   </head>
 
   <body class="overflow-x-hidden overflow-y-auto">
+    
+    <!--Announcement Bar-->
+    <section class="w-full bg-white h-[52px] z-10 overflow-hidden relative">
+      <!--Left div-->
+      <div class="w-full absolute">
+        <div class="w-0 h-0 border-l-0 border-x-transparent border-r-[40px] border-b-[52px] border-lightBlue left-0  absolute z-20"></div>
+        <div class="w-0 h-0 border-l-[20px] -rotate-[38deg] top-0.5 border-r-[40px] border-t-[100px] border-[#C4DDF9] -left-5 absolute z-10"></div>
+        <div class="w-0 h-0 border-l-[20px] -rotate-[38deg] -top-[120px] border-r-[100px] border-t-[250px] border-[#E7F1FD] -left-5  absolute z-1"></div>
+      </div>
+
+      <!--Right div-->
+      <div class="w-full absolute transform -scale-x-100 ">
+        <div class="w-0 h-0 border-l-0 border-x-transparent border-r-[40px] border-b-[52px] border-lightBlue left-0  absolute z-20"></div>
+        <div class="w-0 h-0 border-l-[20px] -rotate-[38deg] top-0.5 border-r-[40px] border-t-[100px] border-[#C4DDF9] -left-5 absolute z-10"></div>
+        <div class="w-0 h-0 border-l-[20px] -rotate-[38deg] -top-[120px] border-r-[100px] border-t-[250px] border-[#E7F1FD] -left-5  absolute z-1"></div>
+      </div>
+
+      <div class="flex flex-row h-full text-center items-center justify-between pb-3 pt-4 px-2 mx-auto max-w-[620px] z-50">
+        <p >RazorpayX Payroll: 3 Clicks, Payroll Fixed! Automate payroll now!</p>
+        <button
+        class="bg-lightBlue500 rounded-md font-bold text-white text-center text-[13px] w-[100px] h-[35px]"
+        >Know More</button>
+      </div>
+
+    </section>
+
+
     <!-- nav -->
     <nav class="bg-deepBlue font-mullish">
       <div
